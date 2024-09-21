@@ -1,0 +1,284 @@
+﻿/*
+* Author: Xpressway Template
+* Created by: Webenvo)
+* Copyright (c) 2018, Inc.
+* Date: 10 June, 2018
+* https://webenvo.com/
+* Name: switcher.css
+*/
+
+#style-switcher h3 {
+    color: #eaeaea;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 5px 0 10px 1px;
+    padding: 0;
+    border: 0px;
+}
+
+#style-switcher {
+    background-color: #00090f;
+    width: 205px;
+    position: fixed;
+    top: 140px;
+    z-index: 99999;
+    border-radius: 0 0 3px 0;
+    left: -206px;
+    border: 1px solid #000000;
+    border-left: 0;
+    border-top: 0;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.08);
+}
+
+#style-switcher div {
+    padding: 3px 10px 0 18px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#style-switcher h2 {
+    background-color: #00090f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 0 0 20px;
+    margin: 0;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#style-switcher h2 a {
+    background-color: #00090f;
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: -43px;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    top: 0;
+    width: 43px;
+    text-decoration: none;
+    border-radius: 0 3px 3px 0;
+}
+
+#style-switcher h2 a:focus {
+    outline: none;
+}
+
+.colors1 {
+    list-style: none outside none;
+    margin: 0 0 10px;
+    border-bottom: 1px solid #d2d2d2;
+    overflow: hidden;
+    padding: 0 0 20px;
+}
+
+.colors1 li {
+    float: left;
+    margin: 0px 2px 0;
+}
+
+.colors1 li a {
+    border-radius: 1px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+}
+
+.colors {
+    list-style: none outside none;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #353535;
+    overflow: hidden;
+    padding: 0 0 20px;
+}
+
+.colors:last-child {
+    border-bottom: 0 none;
+    padding: 0 0 10px;
+}
+
+.colors li {
+    float: left;
+    margin: 4px 4px 4px 4px;
+}
+
+.colors li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 1px;
+    border: 1px solid #eaeaea;
+}
+
+.layout-style select,
+.header-style select,
+.footer-style select,
+.header-color input {
+    width: 164px;
+    padding: 7px 5px;
+    color: #0f0f16;
+    cursor: pointer;
+    border-radius: 0px;
+    height: 35px;
+    font-size: 14px;
+    margin: 2px 0 2px 2px;
+    border: 1px solid #ccc;
+}
+
+.header-color .sp-replacer {
+    padding: 4px 6px !important;
+}
+
+.header-color .sp-replacer .sp-dd,
+.header-color .sp-replacer .sp-preview,
+div.header-color {
+    padding: 0px 1px !important;
+}
+
+.layout-style,
+.header-style,
+.header-color .footer-style {
+    padding: 0 !important;
+}
+
+.btn_layout {
+    background-color: #fafafa;
+    color: #00090f;
+    border-radius: 2px;
+    border: 0px none;
+    display: inline-block;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 4px 2px 0px;
+    padding: 4px 18px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+}
+
+.btn_layout:hover,
+.btn_layout:focus {
+    background-color: #fafafa;
+    color: #00090f;
+}
+
+.skin-default {
+    background: #3c72fc;
+}
+
+.skin-red {
+    background: #d82148;
+}
+
+.skin-green {
+    background: #4E9F3D;
+}
+
+.skin-golden {
+    background: #D29D2B;
+}
+
+.skin-blue {
+    background: #2FA4FF;
+}
+
+.skin-orange {
+    background: #F0C929;
+}
+
+.skin-pink {
+    background: #E60965;
+}
+
+.skin-purple {
+    background: #24A19C;
+}
+
+.bg1 {
+    background-image: url("../../images/bg-patterns/bg-img1.png");
+}
+
+.bg2 {
+    background-image: url("../../images/bg-patterns/bg-img2.png");
+}
+
+.bg3 {
+    background-image: url("../../images/bg-patterns/bg-img3.png");
+}
+
+.bg4 {
+    background-image: url("../../images/bg-patterns/bg-img4.png");
+}
+
+.bg5 {
+    background-image: url("../../images/bg-patterns/bg-img5.jpg");
+}
+
+.bg6 {
+    background-image: url("../../images/bg-patterns/bg-img6.jpg");
+}
+
+.bg7 {
+    background-image: url("../../images/bg-patterns/bg-img7.jpg");
+}
+
+.bg8 {
+    background-image: url("../../images/bg-patterns/bg-img8.jpg");
+}
+
+@media only screen and (max-width: 1023px) {
+    #style-switcher {
+        display: none;
+    }
+}
+
+
+/* This media query for layout resize with boxed layout */
+
+@media(min-width: 1200px) {
+    body.boxed {
+        width: 1210px;
+        -webkit-box-shadow: 0 0 10px 0 rgba(48, 48, 48, 0.5);
+        box-shadow: 0 0 10px 0 rgba(48, 48, 48, 0.5);
+        margin: 30px auto;
+        position: relative;
+        background: url(../../images/bg-patterns/bg-img1.png) repeat fixed;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    body.boxed {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    body.boxed {
+        width: 100%;
+    }
+    body {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+    body.boxed {
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+.simple-notice-custom-control {
+    display: list-item;
+	/* margin-left: -12px;
+	margin-right: -12px; */
+	margin: 20px -12px 0 -12px;
+	padding: 7px 15px;
+	background: #FFF;
+	border-left: 4px solid #0073aa;
+
+}
+#customize-control-webenvo-topbar-social-repeater-control button.button.add_field.customizer-repeater-new-field {
+    display: none;
+}
+
+.webenvo-upgrade-pro-message {
+    margin: 0;
+    /* padding: 3px; */
+}
+
+.webenvo-upgrade-pro-message h4.customize-control-title {
+    margin-top: 0;
+}
+
+.webenvo-fp-msg {
+	margin: 10px 2px;
+}
