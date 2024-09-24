@@ -2,12 +2,12 @@ index.html
 # Ignore Git and Docker related files
 .git/
 .gitignore
-docker-compose.yaml
 docker-compose.yamlback
 
 # Ignore WordPress core files (optional if users will install WordPress on their own)
 wp-admin/
 wp-includes/
+.htaccess
 wp-login.php
 wp-settings.php
 wp-trackback.php
@@ -16,7 +16,20 @@ wp-comments-post.php
 wp-signup.php
 wp-links-opml.php
 wp-blog-header.php
-
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-config.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
 # Ignore uploads and content files (optional)
 #wp-content/uploads/
 #wp-content/cache/
