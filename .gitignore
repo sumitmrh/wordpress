@@ -1,1 +1,32 @@
 index.html
+# Ignore Git and Docker related files
+.git/
+.gitignore
+docker-compose.yaml
+docker-compose.yamlback
+
+# Ignore WordPress core files (optional if users will install WordPress on their own)
+wp-admin/
+wp-includes/
+wp-login.php
+wp-settings.php
+wp-trackback.php
+xmlrpc.php
+wp-comments-post.php
+wp-signup.php
+wp-links-opml.php
+wp-blog-header.php
+
+# Ignore uploads and content files (optional)
+#wp-content/uploads/
+#wp-content/cache/
+#wp-content/plugins/ (if you want users to install plugins themselves)
+#wp-content/themes/ (if themes are external)
+
+# Ignore log and temp files
+*.log
+*.tmp
+
+# Ignore readme and license (optional)
+readme.html
+license.txt
